@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Seoge";
+  src: url("./segoesc.ttf");
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+#header {
+  width: 70%;
+  margin: 0rem auto;
+  background: #393e46;
+  min-height: 10vh;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.navbar h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  padding-top: 1.2rem;
+  font-family: Segoe;
+  text-decoration: underline rgb(59, 156, 180);
+}
+
+.project {
+  width: 90%;
+  margin: 0rem auto;
+  height: 70vh;
+  background-color: #bbbfca;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2.1rem;
+}
+.logo {
+  position: absolute;
+  width: 90%;
+  margin: 0rem auto;
+  height: 10vh;
+  background: #535c5b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  font-weight: 800;
+}
+
+.project-section {
+  min-width: 75%;
+  margin: 0rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tech {
+  font-size: 3rem;
+  border: none;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #3b2c4698;
+}
+
+.tech a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.541);
+}
+
+.tech:hover {
+  background-color: rgba(26, 29, 28, 0.74);
+}
+
+/* Footer */
+
+footer {
+  color: white;
+  background: rgba(137, 140, 143, 0.952);
+}
+.footer-wrapper {
+  display: flex;
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  min-height: 10vh;
+  flex-wrap: wrap;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  flex: 1 1 40rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a img {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 522px) {
+  .tech {
+    font-size: 2rem;
+  }
+  footer {
+    text-align: center;
+  }
+
+  .logo {
+    text-align: center;
+  }
+}
+
+/* HTML and CSS Section */
+
+.main-section {
+  width: 90%;
+  margin: 0rem auto;
+  height: 80vh;
+  background-color: lightblue;
+  display: grid;
+  margin-top: 10vh;
+}
+
+.grid-section a {
+  position: absolute;
+  background-color: #a685e2;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 3rem;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.grid-section a:hover {
+  background-color: #fff;
+  color: #d68060;
+}
